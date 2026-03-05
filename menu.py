@@ -1,5 +1,7 @@
 import os
-
+from saludo import saludo
+from despedida import despedida
+import trabajo
 
 def limpiar():
     os.system("cls")
@@ -27,6 +29,10 @@ def menu():
                 limpiar()
                 print("Saliendo del programa")
                 break
+            case 4:
+                limpiar()
+                print("Trabajando")
+                input("Presione enter para continuar")
             case _:
                 limpiar()
                 continue
